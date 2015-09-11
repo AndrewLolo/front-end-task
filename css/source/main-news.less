@@ -1,0 +1,42 @@
+.main-news {
+	margin-top: 20px;
+
+	&__header {
+		border-bottom: 2px solid #333;
+		}
+
+	&__title {
+		display: inline-block;
+		position: relative;
+		bottom: -7px;
+		margin: 0;
+		padding-right: 10px;
+		background: @white;
+		vertical-align: middle;
+		font-size: 24px;
+		color: #333;
+		font-weight: normal;
+		}
+
+  	&-list {
+	  .list-reset;
+	  display: table-cell;
+	  vertical-align: top;
+	  position: relative;
+	  left: -10px;
+
+	  &-item {
+		display: table-cell;
+		padding: 4px 10px;
+		vertical-align: top;
+
+		&__title {
+			font-size: 14px;
+			font-family: @main-news-font-family;
+			color: #333333;
+			line-height: 1.286;
+			text-align: left;
+		}
+	  }
+	}
+}
